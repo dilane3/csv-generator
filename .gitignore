@@ -1,4 +1,4 @@
 node_modules
-output/wikidata/*
-output/foodon/*
-dataset/*
+output/wikidata/*.csv
+output/foodon/*.csv
+dataset/*.csv
