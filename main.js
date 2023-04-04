@@ -150,5 +150,5 @@ generateCEA(0, [], "wikidata", "http://www.wikidata.org/entity/");
 generateCEA(0, [], "foodon", "");
 
 // Generate CTA file
-generateCTA(0, [], "wikidata", "http://www.wikidata.org/property/");
+generateCTA(0, [], "wikidata", "http://www.wikidata.org/entity/");
 generateCTA(0, [], "foodon", "");
