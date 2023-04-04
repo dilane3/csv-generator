@@ -78,6 +78,9 @@ function generateCEA(index, ceaData, folder, defaultIri) {
         });
       }
 
+      // Trier le tableau tmpData par ordre croissant de colonne
+      tmpData.sort((a, b) => a.col - b.col);
+
       // Ajouter les données du fichier au tableau 'data'
       ceaData.push(...tmpData);
 
